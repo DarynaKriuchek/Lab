@@ -1,0 +1,142 @@
+body
+{
+    margin: 0;
+    width: 100%;
+
+}
+.main1
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.main
+{
+    display: flex;
+    flex-direction: row;
+        justify-content:space-between;
+}
+.central
+{
+    width: 1153px;
+    min-width: 1152px;
+}
+.table
+{
+    display: table;
+    width:100% ;
+    opacity: 0.8;
+    font-weight: bold;
+}
+.row
+{
+    display: table-row;
+    width: 100%;
+}
+.cell
+{
+    display: table-cell;
+}
+.block1
+{
+    background-color: 	#ADD8E6;
+    width: 80%;
+    text-align: center;
+    padding: 20px;
+}
+.block2
+{
+    background-color: 	#FFFFFF;
+    width: 20%;
+}
+.block3
+{
+    background-color: 	#FFFFFF;
+    width: 20%;
+}
+.block4
+{
+    background-color: #E0FFFF;
+    width: 40%;
+
+}
+.block5
+{
+    background-color: 	#87CEFA;
+    width:40% ;
+    text-align: left;
+    padding: 20px;
+}
+.block6
+{
+    background-color: 	#48D1CC;
+    width: 40%;
+    text-align: left;
+    padding: 20px;
+}
+.block7
+{
+    background-color: #B0E0E6;
+    width: 40%;
+    text-align: left;
+    padding: 20px;
+}
+.block8
+{
+    background-color: 	#6A5ACD;
+    width: auto;
+    text-align: left;
+    padding: 20px;
+}
+
+@media only screen and (max-width: 1152px) and (orientation: portrait) and (min-width: 950px)   {
+    .table{
+        flex-direction: column;
+        display: flex;
+    }.table.row{
+         flex-direction: column;
+         display: flex;
+     }
+
+    .block1, .block4, .block5, .block6, .block7{
+
+        width: 98%;
+        min-width: 400px;
+        position: relative;
+        padding: 2%;
+    }
+   .block2{
+        width: 0%;
+        min-width: 0px;
+        display: none;
+    }
+    .block3{
+        width: 0%;
+        min-width: 0px;
+        display: none;
+    }
+    .block8
+    {
+        width: 98%;
+        min-width: 0px;
+        display: none;
+    }
+    .cell{
+        display: block;
+    }
+    .main{
+
+        width: 100%;
+    }
+    .table, .row{
+        display: block;
+    }
+    .central{
+        width: 100%;
+        min-width: 400px;
+       position: relative;
+    }
+    .main1{
+        width: 100%;
+    }
+}
