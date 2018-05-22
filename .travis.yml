@@ -3,7 +3,7 @@ deploy:
   provider: s3
   access_key_id: AKIAIBHWVX4LHLLQI5GQ
   secret_access_key: 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
-  bucket: dara.kriuchek
+  bucket: "dara.kriuchek"
   on:
     repo: DarynaKriuchek/Lab
   acl: public_read
