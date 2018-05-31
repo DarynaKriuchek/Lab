@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <title>СЕРІАЛИ</title>
+    <link href="styles/form.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+    <article>
+        <header> ОФОРМЛЕННЯ ЗАКАЗІВ НА ПОКАЗ ТВОГО УЛЮБЛЕНОГО ФІЛЬМУ</header>
+        <nav>
+            <a href="index.html">Головна</a> | <a href="soundtrack.html">Саундтреки</a> | <a  href="pic.html">Конкурс "Кращий фан-арт"</a> | <a  href="ajax.html">Словник серіаломана</a>
+
+        </nav>
+        <main>
+            <section>
+                <h3>Ти не можеш знайти людину, з якої ти розділиш свої враження від перегляду свого улюбленого серіалу?
+                    То приходь до нас на показ твого улюбленого серіалу.</h3>
+                <h4>Пройди попередню реєстрацію, адже кільксть  місць обмежена.</h4>
+                <div id = "User">
+                    <form id="registration" action="index.html">
+                        <div>
+                            <fieldset>
+                                <legend>Реєстрація</legend>
+                                <div><label for="name">Ім'я</label></div>
+                                <div><input class="required" name="name" id="name" type="text" placeholder="Ваше ім'я" autofocus="" required="" tabindex="1" title="Введіть слово, яке надруковане у паспорті біля поля 'Ім'я' " ></div>
+                                <div><label for="surname">Фамілія</label></div>
+                                <div><input name="surname" id="surname" type="text" placeholder="Ваша фамілія"  required="" tabindex="2" title="Введіть слово, яке надруковане у паспорті біля поля 'Фамілія'" ></div>
+                                <div><label for="e-mail">Електронна адреса</label> </div>
+                                <div><input name="e-mail" id="e-mail" type="email" placeholder="serial@gmail.com"  required="" tabindex="3" title="Введіть вашу поштову скриньку" pattern="^[-a-z0-9!#$%&'*+/=?^_`{|}~]+(?:\.[-a-z0-9!#$%&'*+/=?^_`{|}~]+)*@(?:[a-z0-9]([-a-z0-9]{0,61}[a-z0-9])?\.)*(?:aero|arpa|asia|biz|cat|com|coop|edu|gov|info|int|jobs|mil|mobi|museum|name|net|org|pro|tel|travel|[a-z][a-z])$"></div>
+                                <div><label for="gender">Стать</label></div>
+                                <div><select name="gender" id="gender" tabindex="4" title="Виберіть вашу стать, опираючись на зовнішні признаки"><option value="male">Чол.</option><option value="female">Жін.</option></select></div>
+                               <div><label for="age">Вік</label></div>
+                             <div><input name="age" id="age" type="number" placeholder="Ваш вік" tabindex="5" data-regexp="[0-9]" required="" title="Введіть число, рівне повній кількості років, що пройшли з моменту Вашого народження до цієї хвилини"></div>
+                                <fieldset>
+                                    <legend>Оберіть серіал, котрий хочете відвідати</legend>
+                                    <input type="radio"  id="riv" name="serial">Рівердейл<br>
+                                    <input type="radio"  id="shad" name="serial">Сутінкові мисливці<br>
+                                    <input type="radio"  id="got" name="serial">Гра престолів<br>
+                                </fieldset>
+                        </fieldset>
+                        </div>
+                        <p><button class="submit" type="submit" title="Submit the form">Відправити</button></p>
+                    </form>
+
+                </div>
+            </section>
+        </main>
+
+        <footer id="contact">
+            <div class="left"><p>Наша адреса:<br>Київ,Проспект Глушкова 4г</p></div>
+            <div class="center"><p>За деталями звератайтесь за e-mail:<br>dashkin9@gmail.com</p></div>
+            <div class="right"><p>Гаряча лінія:<br>+380935687395</p></div>
+        </footer>
+    </article>
+</body>
+</html>

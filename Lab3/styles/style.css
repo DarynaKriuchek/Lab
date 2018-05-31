@@ -1,0 +1,152 @@
+body
+{
+   width: 100%;
+    margin: 0;
+    background: url("../Images/wallpaper.png") fixed no-repeat ;
+    background-size: cover;
+    display: block;
+
+}
+article
+{
+  position: relative;
+}
+section
+{
+    position: relative;
+     float: right;
+    display: block;
+    color: white;
+    font-style: normal;
+    font-size: larger;
+    border-radius: 10px;
+    margin-left: 260px;
+    text-align: center;
+    margin-right: 100px;
+    border-left-width: 10px;
+    border-top-style: solid;
+    border-right-style: solid;
+    border-bottom-style: solid;
+    border-left-style: solid;
+    border-right-width: 10px;
+    border-top-width: 0px;
+    border-bottom-width: 0px;
+
+
+}
+
+.small_pic
+{
+   display: block;
+    padding: 5px;
+    float: left;
+    margin: 0;
+
+}
+.small_pic li
+{
+   list-style-type: none;
+    display: block;
+    width: 100px;
+    height: 60px;
+    border: solid 1px white;
+    margin: 2px;
+}
+.small_pic img
+{
+    width: 100px;
+    height: 60px;
+}
+.wreaper_pic
+{
+  color: white;
+    text-align:center ;
+}
+#picture
+{
+    width: 600px;
+    height: 337px;
+}
+#picture_info
+{
+    clear: both;
+    font-style: italic;
+}
+header {
+    font-family: "MS Serif", "New York", serif;
+    font-size: 24px;
+    font-weight: 800;
+    border-top-width: 0px;
+    border-right-width: 6px;
+    border-bottom-width: 0px;
+    border-left-width: 6px;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 25px;
+    color: white;
+}
+
+nav {
+    margin-left: 100px;
+    margin-right: 100px;
+    background-color: azure;
+    font-style: normal;
+    font-size: x-large;
+    text-align: center;
+}
+nav a
+{
+    font-weight: bold;
+    color: black;
+}
+nav a:hover {color: blue;}
+
+aside
+{
+    position: fixed;
+    display: block;
+    float:left;
+    width: 240px;
+    border-radius: 5px;
+    background: rgba(255,255,255,0.1);
+    margin-top: 10px;
+    margin-left: 10px;
+    padding: 0;
+    margin-right: auto;
+    margin-bottom: 0;
+
+
+}
+aside a
+{
+color: white;
+
+}
+aside p {
+    margin-top: 30px;
+    margin-right: 4px;
+    margin-bottom: 30px;
+    margin-left: 4px;
+}
+footer {
+    clear: both;
+    border-top-width: 3px;
+    border-right-width: 0;
+    border-bottom-width: 0;
+    border-left-width: 0;
+    border-top-style: solid;
+    border-top-color: #000;
+    width:100%;
+    margin-top:-80px;
+}
+footer div {
+    clear: none;
+    width: 33.3%;
+    float: left;
+    background-color: white;
+}
+
+
+
+
+

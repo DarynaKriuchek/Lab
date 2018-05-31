@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <title>Конкурс "Кращий фан-арт"</title>
+    <link href="styles/pic.css" rel="stylesheet" type="text/css">
+    <script src="script/canvas.js"></script>
+    <script src="script/pic.js"></script>
+    <script src="script/dragndrop.js"></script>
+</head>
+<body>
+<div class="wreaper">
+<header>КОНКУРС "КРАЩИЙ ФАН-АРТ"</header>
+<nav>
+    <a href="index.html">Головна</a> |  <a href="soundtrack.html">Саундтреки</a> | <a href="registration.html">Реєстрація на показ серіалу</a>  | <a  href="ajax.html">Словник серіаломана</a>
+</nav>
+<main>
+        <section>
+            <h1>Візьміть участь у конкурсі та виграйте символіку вашого улюбленого серіалу! </h1>
+            <h2>Намалюй свого улюбленого героя</h2>
+            <canvas id="canva"></canvas>
+            <p><button id="subm">Відправити малюнок</button></p>
+        </section>
+         <section>
+                 <h3>Нам цікаво побачити тебе, прікрипи своє фото</h3>
+                 <input type="file" id="pic" accept="image/*" multiple>
+                 <button id="submit">Відправити фото</button>
+                 <ol></ol>
+         </section>
+         <section>
+             <h1 >Прікрипи свій фан -арт, якщо він в тебе вже є</h1>
+             <div id="status">Перетяни свій файл у відведену форму</div>
+             <div id="drop">Дропни сюди</div>
+             <div id="list"></div>
+         </section>
+
+</main>
+<footer id="contact">
+    <div class="left"><p>Наша адреса:<br>Київ,Проспект Глушкова 4г</p></div>
+    <div class="center"><p>За деталями звератайтесь за e-mail:<br>dashkin9@gmail.com</p></div>
+    <div class="right"><p>Гаряча лінія:<br>+380935687395</p></div>
+</footer>
+</div>
+</body>
+</html>
