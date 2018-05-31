@@ -1,0 +1,87 @@
+body
+{
+    width: 100%;
+    margin: 0;
+    background: url("../Images/wallpaper.png") fixed no-repeat ;
+    background-size: cover;
+    display: block;
+
+}
+header {
+    font-family: "MS Serif", "New York", serif;
+    font-size: 24px;
+    font-weight: 800;
+    border-top-width: 0px;
+    border-right-width: 6px;
+    border-bottom-width: 0px;
+    border-left-width: 6px;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 25px;
+    color: white;
+}
+section
+{
+    color: white;
+    font-style: normal;
+    font-size: larger;
+    border-radius: 10px;
+    margin-left: 100px;
+    text-align: center;
+    margin-right: 100px;
+    border-left-width: 10px;
+    border-top-style: solid;
+    border-right-style: solid;
+    border-bottom-style: solid;
+    border-left-style: solid;
+    border-right-width: 10px;
+    border-top-width: 0px;
+    border-bottom-width: 0px;
+
+}
+nav {
+    margin-left: 100px;
+    margin-right: 100px;
+    background-color: azure;
+    font-style: normal;
+    font-size: x-large;
+    text-align: center;
+}
+nav a
+{
+    font-weight: bold;
+    color: black;
+}
+nav a:hover {color: blue;}
+footer {
+    position:fixed;
+    left: 0;
+    bottom:0;
+    width:100%;
+}
+
+footer div {
+    clear: none;
+    width: 33.3%;
+    float: left;
+    background-color: white;
+}
+li:hover { cursor: pointer; background-color:gray;}
+
+h5 {
+    text-align: center;
+    margin: 0;
+}
+
+#track { font-style: italic; color: gray;}
+
+.music_list {padding-bottom: 50px;}
+
+#music_main {
+    min-width: 550px;
+    width: 100%;
+}
+
+
+.music {min-width: 550px;}
+
