@@ -1,9 +1,0 @@
-language: generic
-deploy:
-  provider: s3
-  access_key_id: AKIAIBHWVX4LHLLQI5GQ
-  secret_access_key: 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
-  bucket: git-to-amazon-s3-outputbucket-13pobp74p6l2l
-  on:
-    repo: DarynaKriuchek/Lab
-  acl: public_read
